@@ -1,0 +1,22 @@
+#about {
+    margin: 0 5px; /* Set margin on both left and right sides */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 2px;
+    border: 2px solid black;
+    /* text-align: center;  */
+    /* display: flex;  */
+    /* justify-content: center;  */
+    align-items: center;
+    animation: fadeIn 1s ease-in-out; /* Text animation */
+    font-size: 15pt;
+}
+
+/* Define the fadeIn animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with 0 opacity */
+    }
+    to {
+        opacity: 1; /* End with full opacity */
+    }
+}
